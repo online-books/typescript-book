@@ -6,6 +6,12 @@ Creating an empty array is super easy:
 const foo: string[] = [];
 ```
 
+If you want an array to loop over: 
+
+```ts
+[...new Array(6)]; 
+```
+
 If you want to create an array pre-filled with some content use the ES6 `Array.prototype.fill`: 
 
 ```ts
